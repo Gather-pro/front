@@ -21,7 +21,7 @@ export default defineConfig({
     host: "0.0.0.0",
   },
   build: {
-    outDir: "dist",
+    outDir: "build",
     cssCodeSplit: true,
     chunkSizeWarningLimit: 1000, // Increase the limit to 1MB
     rollupOptions: {
