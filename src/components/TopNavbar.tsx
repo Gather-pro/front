@@ -66,7 +66,7 @@ export default function TopNavBar() {
             onClick={() => {
               if (user) {
                 handleSignOut();
-                window.location.href = "/";
+                window.location.href = "/home";
               } else return;
             }}
           />
@@ -79,7 +79,7 @@ export default function TopNavBar() {
 
         {/* Navigation Links */}
         <HStack spacing={8} fontSize="md" fontWeight="medium">
-          <Link to="/" style={{ color: "black", textDecoration: "none" }}>
+          <Link to="/home" style={{ color: "black", textDecoration: "none" }}>
             Home
           </Link>
           <Link

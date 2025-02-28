@@ -1,13 +1,4 @@
-import {
-  Box,
-  Button,
-  Heading,
-  Image,
-  Text,
-  VStack,
-  Container,
-  Center,
-} from "@chakra-ui/react";
+import { Box, Heading, Image, Text, VStack, Container } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 
 // Motion wrapper for animations
