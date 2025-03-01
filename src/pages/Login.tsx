@@ -201,7 +201,7 @@ export default function Login() {
         display={{ base: "none", md: "block" }}
         bg="gray.200"
         w="100%"
-        h="300px"
+        h="400px"
         maxW="400px"
         ml={{ md: 10 }}
       />
